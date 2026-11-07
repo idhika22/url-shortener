@@ -1,0 +1,4 @@
+Flask>=3.0,<4
+gunicorn>=22.0
+pymongo>=4.7
+prometheus-client>=0.20

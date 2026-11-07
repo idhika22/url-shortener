@@ -1,0 +1,16 @@
+#Virtual environment
+.venv/
+venv/
+
+#Python cache
+__pycache__/
+.pyc
+
+#Environment variables and names
+.env
+
+#Pytest
+.pytest_cache/
+
+#Ruff cache
+.ruff_cache/
