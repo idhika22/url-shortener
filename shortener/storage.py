@@ -7,7 +7,7 @@ Two backends share the same small interface:
 import secrets
 import string
 import threading
-from datetime import  datetime, timezone
+from datetime import datetime, timezone
 
 ALPHABET = string.ascii_letters + string.digits
 
