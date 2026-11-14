@@ -21,7 +21,9 @@ services:
     restart: unless-stopped
   
   app:
-    build: .
+    image: ghcr.io/idhika22/url-shortener:${IMAGE_TAG:-latest}
+
+    #build: .
 
     environment:
       MONGODB_URI: "mongodb://${MONGO_USER}:${MONGO_PASSWORD}@mongo:27017/?authSource=admin"
