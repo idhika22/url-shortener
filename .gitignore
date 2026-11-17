@@ -15,4 +15,12 @@ __pycache__/
 #Ruff cache
 .ruff_cache/
 
+#Deploy Script
 .deploy/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.auto.tfvars
